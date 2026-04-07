@@ -165,18 +165,6 @@
                         >
                       </li>
                     </ul>
-                    <div class="hstack gap-3">
-                      <a
-                        href="sign-in.html"
-                        class="btn btn-outline-light fs-6 bg-white px-3 py-2 text-dark w-50 hstack justify-content-center"
-                        >Sign In</a
-                      >
-                      <a
-                        href="sign-up.html"
-                        class="btn btn-dark text-white fs-6 bg-dark px-3 py-2 w-50 hstack justify-content-center"
-                        >Sign Up</a
-                      >
-                    </div>
                   </div>
                   <div>
                     <a class="text-dark" href="tel:+2348027611911"
@@ -202,18 +190,12 @@
       <section
         class="banner-section position-relative d-flex align-items-end min-vh-100"
       >
-        <video
-          class="position-absolute top-0 start-0 w-100 h-100 object-fit-cover"
-          autoplay
-          muted
-          loop
-          playsinline
-        >
-          <source
-            src="../assets/images/backgrounds/banner-video.mp4"
-            type="video/mp4"
-          />
-        </video>
+        <div class="banner-motion-bg position-absolute top-0 start-0 w-100 h-100">
+          <div class="banner-motion-core"></div>
+          <div class="banner-motion-orbit banner-motion-orbit-one"></div>
+          <div class="banner-motion-orbit banner-motion-orbit-two"></div>
+          <div class="banner-motion-grid"></div>
+        </div>
         <div class="container">
           <div class="d-flex flex-column gap-4 pb-8 position-relative z-1">
             <div class="row align-items-center">
@@ -256,6 +238,18 @@
                   ></iconify-icon>
                 </span>
               </a>
+            </div>
+            <div
+              class="banner-service-strip d-flex flex-wrap align-items-center gap-2"
+              data-aos="fade-up"
+              data-aos-delay="300"
+              data-aos-duration="1000"
+            >
+              <span class="banner-service-pill">Oracle ERP Delivery</span>
+              <span class="banner-service-pill">Cloud Infrastructure</span>
+              <span class="banner-service-pill">Database Administration</span>
+              <span class="banner-service-pill">Enterprise Analytics</span>
+              <span class="banner-service-pill">Managed Support</span>
             </div>
           </div>
         </div>
@@ -428,13 +422,13 @@
                 <div class="portfolio d-flex flex-column gap-6">
                   <div class="portfolio-img position-relative overflow-hidden">
                     <img
-                      src="../assets/images/portfolio/portfolio-img-1.jpg"
-                      alt=""
+                      src="../assets/images/projects/government-financial-system.svg"
+                      alt="Government Financial System project dashboard"
                       class="img-fluid"
                     />
                     <div class="portfolio-overlay">
                       <a
-                        href="projects-detail.html"
+                        href="projects-detail.html?project=government-financial-system"
                         class="position-absolute top-50 start-50 translate-middle bg-primary round-64 rounded-circle hstack justify-content-center"
                       >
                         <iconify-icon
@@ -457,13 +451,13 @@
                 <div class="portfolio d-flex flex-column gap-6">
                   <div class="portfolio-img position-relative overflow-hidden">
                     <img
-                      src="../assets/images/portfolio/portfolio-img-2.jpg"
-                      alt=""
+                      src="../assets/images/projects/afdb-analytics-cloud-migration.svg"
+                      alt="AfDB analytics cloud migration monitoring dashboard"
                       class="img-fluid"
                     />
                     <div class="portfolio-overlay">
                       <a
-                        href="projects-detail.html"
+                        href="projects-detail.html?project=afdb-analytics-cloud-migration"
                         class="position-absolute top-50 start-50 translate-middle bg-primary round-64 rounded-circle hstack justify-content-center"
                       >
                         <iconify-icon
@@ -486,13 +480,13 @@
                 <div class="portfolio d-flex flex-column gap-6">
                   <div class="portfolio-img position-relative overflow-hidden">
                     <img
-                      src="../assets/images/portfolio/portfolio-img-3.jpg"
-                      alt=""
+                      src="../assets/images/projects/ssnit-ebs-upgrade-db-migration.svg"
+                      alt="SSNIT EBS upgrade and database migration monitoring view"
                       class="img-fluid"
                     />
                     <div class="portfolio-overlay">
                       <a
-                        href="projects-detail.html"
+                        href="projects-detail.html?project=ssnit-ebs-upgrade-db-migration"
                         class="position-absolute top-50 start-50 translate-middle bg-primary round-64 rounded-circle hstack justify-content-center"
                       >
                         <iconify-icon
@@ -515,13 +509,13 @@
                 <div class="portfolio d-flex flex-column gap-6">
                   <div class="portfolio-img position-relative overflow-hidden">
                     <img
-                      src="../assets/images/portfolio/portfolio-img-4.jpg"
-                      alt=""
+                      src="../assets/images/projects/state-ifmis-implementations.svg"
+                      alt="State IFMIS implementation payment and transaction workflow"
                       class="img-fluid"
                     />
                     <div class="portfolio-overlay">
                       <a
-                        href="projects-detail.html"
+                        href="projects-detail.html?project=state-ifmis-implementations"
                         class="position-absolute top-50 start-50 translate-middle bg-primary round-64 rounded-circle hstack justify-content-center"
                       >
                         <iconify-icon
@@ -544,13 +538,13 @@
                 <div class="portfolio d-flex flex-column gap-6">
                   <div class="portfolio-img position-relative overflow-hidden">
                     <img
-                      src="../assets/images/portfolio/portfolio-img-5.jpg"
-                      alt=""
+                      src="../assets/images/projects/high-availability-database-platform.svg"
+                      alt="High availability database platform performance metrics"
                       class="img-fluid"
                     />
                     <div class="portfolio-overlay">
                       <a
-                        href="projects-detail.html"
+                        href="projects-detail.html?project=high-availability-database-platform"
                         class="position-absolute top-50 start-50 translate-middle bg-primary round-64 rounded-circle hstack justify-content-center"
                       >
                         <iconify-icon
@@ -573,13 +567,13 @@
                 <div class="portfolio d-flex flex-column gap-6">
                   <div class="portfolio-img position-relative overflow-hidden">
                     <img
-                      src="../assets/images/portfolio/portfolio-img-6.jpg"
-                      alt=""
+                      src="../assets/images/projects/oracle-ebs-to-oci-migration-factory.svg"
+                      alt="Oracle EBS to OCI migration factory operations dashboard"
                       class="img-fluid"
                     />
                     <div class="portfolio-overlay">
                       <a
-                        href="projects-detail.html"
+                        href="projects-detail.html?project=oracle-ebs-to-oci-migration-factory"
                         class="position-absolute top-50 start-50 translate-middle bg-primary round-64 rounded-circle hstack justify-content-center"
                       >
                         <iconify-icon

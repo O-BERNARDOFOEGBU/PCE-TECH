@@ -164,18 +164,6 @@
                         >
                       </li>
                     </ul>
-                    <div class="hstack gap-3">
-                      <a
-                        href="sign-in.html"
-                        class="btn btn-outline-light fs-6 bg-white px-3 py-2 text-dark w-50 hstack justify-content-center"
-                        >Sign In</a
-                      >
-                      <a
-                        href="sign-up.html"
-                        class="btn btn-dark text-white fs-6 bg-dark px-3 py-2 w-50 hstack justify-content-center"
-                        >Sign Up</a
-                      >
-                    </div>
                   </div>
                   <div>
                     <a class="text-dark" href="tel:+2348027611911"
@@ -235,7 +223,9 @@
               data-aos-delay="200"
               data-aos-duration="1000"
             >
-              <h1 class="mb-0 fs-16 text-white lh-1">Government Financial System (Maliyah)</h1>
+              <h1 class="mb-0 fs-16 text-white lh-1" id="projectDetailTitle">
+                Government Financial System (Maliyah)
+              </h1>
               <a
                 href="javascript:void(0)"
                 class="p-1 ps-7 bg-primary rounded-pill"
@@ -357,8 +347,9 @@
                 data-aos-duration="1000"
               >
                 <img
-                  src="../assets/images/portfolio/portfolio-img-4.jpg"
-                  alt="services"
+                  src="../assets/images/projects/government-financial-system.svg"
+                  alt="Government Financial System project visual"
+                  data-project-image="primary"
                   class="w-100 object-fit-cover"
                 />
               </div>
@@ -369,8 +360,9 @@
                 data-aos-duration="1000"
               >
                 <img
-                  src="../assets/images/portfolio/portfolio-img-2.jpg"
-                  alt="services"
+                  src="../assets/images/projects/afdb-analytics-cloud-migration.svg"
+                  alt="AfDB analytics cloud migration project visual"
+                  data-project-image="secondary-one"
                   class="w-100 object-fit-cover"
                 />
               </div>
@@ -381,8 +373,9 @@
                 data-aos-duration="1000"
               >
                 <img
-                  src="../assets/images/portfolio/portfolio-img-3.jpg"
-                  alt="services"
+                  src="../assets/images/projects/ssnit-ebs-upgrade-db-migration.svg"
+                  alt="SSNIT EBS upgrade and database migration project visual"
+                  data-project-image="secondary-two"
                   class="w-100 object-fit-cover"
                 />
               </div>
@@ -506,6 +499,99 @@
     <script src="../assets/libs/owl.carousel/dist/owl.carousel.min.js"></script>
     <script src="../assets/libs/aos-master/dist/aos.js"></script>
     <script src="../assets/js/custom.js"></script>
+    <script>
+      (() => {
+        const projectCatalog = [
+          {
+            slug: "government-financial-system",
+            title: "Government Financial System (Maliyah)",
+            image:
+              "../assets/images/projects/government-financial-system.svg",
+            alt: "Government Financial System project visual",
+          },
+          {
+            slug: "afdb-analytics-cloud-migration",
+            title: "AfDB Analytics Cloud Migration",
+            image:
+              "../assets/images/projects/afdb-analytics-cloud-migration.svg",
+            alt: "AfDB analytics cloud migration project visual",
+          },
+          {
+            slug: "ssnit-ebs-upgrade-db-migration",
+            title: "SSNIT EBS Upgrade & DB Migration",
+            image:
+              "../assets/images/projects/ssnit-ebs-upgrade-db-migration.svg",
+            alt: "SSNIT EBS upgrade and database migration project visual",
+          },
+          {
+            slug: "state-ifmis-implementations",
+            title: "State IFMIS Implementations",
+            image:
+              "../assets/images/projects/state-ifmis-implementations.svg",
+            alt: "State IFMIS implementation project visual",
+          },
+          {
+            slug: "high-availability-database-platform",
+            title: "High Availability Database Platform",
+            image:
+              "../assets/images/projects/high-availability-database-platform.svg",
+            alt: "High availability database platform project visual",
+          },
+          {
+            slug: "oracle-ebs-to-oci-migration-factory",
+            title: "Oracle EBS to OCI Migration Factory",
+            image:
+              "../assets/images/projects/oracle-ebs-to-oci-migration-factory.svg",
+            alt: "Oracle EBS to OCI migration factory project visual",
+          },
+        ];
+
+        const params = new URLSearchParams(window.location.search);
+        const selectedSlug = params.get("project");
+        const selectedProject =
+          projectCatalog.find((item) => item.slug === selectedSlug) ||
+          projectCatalog[0];
+
+        const titleElement = document.getElementById("projectDetailTitle");
+        if (titleElement) {
+          titleElement.textContent = selectedProject.title;
+        }
+
+        document.title = `${selectedProject.title} | PCE-TECH`;
+
+        const primaryImage = document.querySelector(
+          '[data-project-image="primary"]'
+        );
+        if (primaryImage) {
+          primaryImage.src = selectedProject.image;
+          primaryImage.alt = selectedProject.alt;
+        }
+
+        const selectedIndex = projectCatalog.findIndex(
+          (item) => item.slug === selectedProject.slug
+        );
+        const secondaryOne =
+          projectCatalog[(selectedIndex + 1) % projectCatalog.length];
+        const secondaryTwo =
+          projectCatalog[(selectedIndex + 2) % projectCatalog.length];
+
+        const secondaryOneImage = document.querySelector(
+          '[data-project-image="secondary-one"]'
+        );
+        if (secondaryOneImage) {
+          secondaryOneImage.src = secondaryOne.image;
+          secondaryOneImage.alt = secondaryOne.alt;
+        }
+
+        const secondaryTwoImage = document.querySelector(
+          '[data-project-image="secondary-two"]'
+        );
+        if (secondaryTwoImage) {
+          secondaryTwoImage.src = secondaryTwo.image;
+          secondaryTwoImage.alt = secondaryTwo.alt;
+        }
+      })();
+    </script>
     <!-- solar icons -->
     <script src="https://cdn.jsdelivr.net/npm/iconify-icon@1.0.8/dist/iconify-icon.min.js"></script>
   </body>
