@@ -1,590 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>PCE-TECH</title>
-    <link
-      rel="shortcut icon"
-      type="image/png"
-      href="../assets/images/logos/favicon.svg"
-    />
-    <link
-      rel="stylesheet"
-      href="../assets/libs/owl.carousel/dist/assets/owl.carousel.min.css"
-    />
-    <link rel="stylesheet" href="../assets/libs/aos-master/dist/aos.css" />
-    <link rel="stylesheet" href="../assets/css/styles.css" />
-  </head>
-
-  <body>
-    <!-- Header -->
-    <header
-      class="header border-4 border-primary border-top position-fixed start-0 top-0 w-100"
-    >
-      <div class="container">
-        <div
-          class="header-wrapper d-flex align-items-center justify-content-between"
-        >
-          <div class="logo">
-            <a href="index.html" class="logo-white">
-              <img
-                src="../assets/images/logos/logo-white.svg"
-                alt="logo"
-                class="img-fluid"
-              />
-            </a>
-            <a href="index.html" class="logo-dark">
-              <img
-                src="../assets/images/logos/logo-dark.svg"
-                alt="logo"
-                class="img-fluid"
-              />
-            </a>
-          </div>
-          <div class="d-flex align-items-center gap-4">
-            <div class="btn-group">
-              <button
-                class="btn btn-secondary toggle-menu round-45 p-2 d-flex align-items-center justify-content-center bg-white rounded-circle"
-                type="button"
-                data-bs-toggle="dropdown"
-                data-bs-auto-close="true"
-                aria-expanded="false"
-              >
-                <iconify-icon
-                  icon="solar:hamburger-menu-line-duotone"
-                  class="menu-icon fs-8 text-dark"
-                ></iconify-icon>
-              </button>
-              <ul class="dropdown-menu dropdown-menu-end p-4">
-                <div class="d-flex flex-column gap-6">
-                  <div
-                    class="hstack justify-content-between border-bottom pb-6"
-                  >
-                    <p class="mb-0 fs-5 text-dark">Menu</p>
-                    <button
-                      type="button"
-                      class="btn-close opacity-75"
-                      aria-label="Close"
-                    ></button>
-                  </div>
-                  <div class="d-flex flex-column gap-3">
-                    <ul
-                      class="header-menu list-unstyled mb-0 d-flex flex-column gap-2"
-                    >
-                      <li class="header-item">
-                        <a
-                          href="index.html"
-                          class="header-link hstack gap-2 fs-7 fw-bold text-dark"
-                          ><img
-                            src="../assets/images/svgs/secondary-leaf.svg"
-                            alt=""
-                            width="20"
-                            height="20"
-                            class="img-fluid animate-spin"
-                          />Home</a
-                        >
-                      </li>
-                      <li class="header-item">
-                        <a
-                          href="about-us.html"
-                          class="header-link hstack gap-2 fs-7 fw-bold text-dark"
-                          ><img
-                            src="../assets/images/svgs/secondary-leaf.svg"
-                            alt=""
-                            width="20"
-                            height="20"
-                            class="img-fluid animate-spin"
-                          />About</a
-                        >
-                      </li>
-                      <li class="header-item">
-                        <a
-                          href="projects.html"
-                          aria-current="true"
-                          class="header-link active hstack gap-2 fs-7 fw-bold text-dark"
-                          ><img
-                            src="../assets/images/svgs/secondary-leaf.svg"
-                            alt=""
-                            width="20"
-                            height="20"
-                            class="img-fluid animate-spin"
-                          />Projects</a
-                        >
-                      </li>
-                      <li class="header-item">
-                        <a
-                          href="blog.html"
-                          class="header-link hstack gap-2 fs-7 fw-bold text-dark"
-                          ><img
-                            src="../assets/images/svgs/secondary-leaf.svg"
-                            alt=""
-                            width="20"
-                            height="20"
-                            class="img-fluid animate-spin"
-                          />Blog</a
-                        >
-                      </li>
-                      <li class="header-item">
-                        <a
-                          href="index.html"
-                          class="header-link hstack gap-2 fs-7 fw-bold text-dark"
-                          ><img
-                            src="../assets/images/svgs/secondary-leaf.svg"
-                            alt=""
-                            width="20"
-                            height="20"
-                            class="img-fluid animate-spin"
-                          />Services</a
-                        >
-                      </li>
-                      <li class="header-item">
-                        <a
-                          href="contact.html"
-                          class="header-link hstack gap-2 fs-7 fw-bold text-dark"
-                          ><img
-                            src="../assets/images/svgs/secondary-leaf.svg"
-                            alt=""
-                            width="20"
-                            height="20"
-                            class="img-fluid animate-spin"
-                          />Contact</a
-                        >
-                      </li>
-                      <li class="header-item">
-                        <a
-                          href="index.html"
-                          class="header-link hstack gap-2 fs-7 fw-bold text-dark"
-                          ><img
-                            src="../assets/images/svgs/secondary-leaf.svg"
-                            alt=""
-                            width="20"
-                            height="20"
-                            class="img-fluid animate-spin"
-                          />Docs</a
-                        >
-                      </li>
-                    </ul>
-                  </div>
-                  <div>
-                    <a class="text-dark" href="tel:+2348027611911"
-                      >+234 802 761 1911</a
-                    >
-                    <a
-                      class="fs-8 text-dark fw-bold"
-                      href="mailto:info@pcetech.com"
-                      >info@pcetech.com</a
-                    >
-                  </div>
-                </div>
-              </ul>
-            </div>
-          </div>
-        </div>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Explore PCE-TECH capability areas across Oracle ERP, OCI migration, database reliability, public finance and enterprise analytics." />
+  <title>PCE-TECH Capabilities | Oracle ERP, OCI & Database Services</title>
+  <link rel="shortcut icon" type="image/svg+xml" href="../assets/images/logos/favicon.svg" />
+  <link rel="stylesheet" href="../assets/libs/owl.carousel/dist/assets/owl.carousel.min.css" />
+  <link rel="stylesheet" href="../assets/libs/aos-master/dist/aos.css" />
+  <link rel="stylesheet" href="../assets/css/styles.css" />
+  <link rel="stylesheet" href="../assets/css/pce-refresh.css" />
+</head>
+<body>
+<header class="header site-header border-4 border-primary border-top position-fixed start-0 top-0 w-100">
+  <div class="container">
+    <div class="site-header-row d-flex align-items-center justify-content-between">
+      <div class="logo">
+        <a href="index.html" class="logo-white" aria-label="PCE-TECH home"><img src="../assets/images/logos/logo-white.svg" alt="PCE-TECH" class="img-fluid" /></a>
+        <a href="index.html" class="logo-dark" aria-label="PCE-TECH home"><img src="../assets/images/logos/logo-dark.svg" alt="PCE-TECH" class="img-fluid" /></a>
       </div>
-    </header>
-
-    <!--  Page Wrapper -->
-    <div class="page-wrapper overflow-hidden">
-      <!--  Banner Section -->
-      <section
-        class="banner-section banner-inner-section position-relative overflow-hidden d-flex align-items-end"
-      >
-        <div class="banner-motion-bg position-absolute top-0 start-0 w-100 h-100">
-          <div class="banner-motion-core"></div>
-          <div class="banner-motion-orbit banner-motion-orbit-one"></div>
-          <div class="banner-motion-orbit banner-motion-orbit-two"></div>
-          <div class="banner-motion-grid"></div>
-        </div>
-        <div class="container">
-          <div
-            class="d-flex flex-column gap-4 pb-5 pb-xl-10 position-relative z-1"
-          >
-            <div class="row align-items-center">
-              <div class="col-xl-4">
-                <div
-                  class="d-flex align-items-center gap-4"
-                  data-aos="fade-up"
-                  data-aos-delay="100"
-                  data-aos-duration="1000"
-                >
-                  <img
-                    src="../assets/images/svgs/primary-leaf.svg"
-                    alt=""
-                    class="img-fluid animate-spin"
-                  />
-                  <p class="mb-0 text-white fs-5 text-opacity-70">
-                    A <span class="text-primary">portfolio of enterprise Oracle</span>
-                    transformation programs delivered across public and private sectors.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div
-              class="d-flex align-items-end gap-3"
-              data-aos="fade-up"
-              data-aos-delay="200"
-              data-aos-duration="1000"
-            >
-              <h1 class="mb-0 fs-16 text-white lh-1">Projects</h1>
-              <a
-                href="javascript:void(0)"
-                class="p-1 ps-7 bg-primary rounded-pill"
-              >
-                <span
-                  class="bg-white round-52 rounded-circle d-flex align-items-center justify-content-center"
-                >
-                  <iconify-icon
-                    icon="lucide:arrow-up-right"
-                    class="fs-8 text-dark"
-                  ></iconify-icon>
-                </span>
-              </a>
-            </div>
-            <div
-              class="banner-service-strip d-flex flex-wrap align-items-center gap-2"
-              data-aos="fade-up"
-              data-aos-delay="300"
-              data-aos-duration="1000"
-            >
-              <span class="banner-service-pill">Oracle EBS Programs</span>
-              <span class="banner-service-pill">OCI Migrations</span>
-              <span class="banner-service-pill">Data Platform Upgrades</span>
-              <span class="banner-service-pill">Public and Private Sector</span>
-              <span class="banner-service-pill">Post-Go-Live Support</span>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!--  Project Section -->
-      <section class="project py-5 py-lg-11 py-xl-12">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-6 mb-7">
-              <div
-                class="portfolio d-flex flex-column gap-6"
-                data-aos="fade-up"
-                data-aos-delay="100"
-                data-aos-duration="1000"
-              >
-                <div class="portfolio-img position-relative overflow-hidden">
-                  <img
-                    src="../assets/images/projects/government-financial-system.svg"
-                    alt="Government Financial System project dashboard"
-                    class="img-fluid w-100"
-                  />
-                  <div class="portfolio-overlay">
-                    <a
-                      href="projects-detail.html?project=government-financial-system"
-                      class="position-absolute top-50 start-50 translate-middle bg-primary round-64 rounded-circle hstack justify-content-center"
-                    >
-                      <iconify-icon
-                        icon="lucide:arrow-up-right"
-                        class="fs-8 text-dark"
-                      ></iconify-icon>
-                    </a>
-                  </div>
-                </div>
-                <div class="portfolio-details d-flex flex-column gap-3">
-                  <h3 class="mb-0">Government Financial System (Maliyah)</h3>
-                  <div class="hstack gap-2">
-                    <span class="badge text-dark border">Oracle EBS</span>
-                    <span class="badge text-dark border">Public Sector</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-6 mb-7">
-              <div
-                class="portfolio d-flex flex-column gap-6"
-                data-aos="fade-up"
-                data-aos-delay="200"
-                data-aos-duration="1000"
-              >
-                <div class="portfolio-img position-relative overflow-hidden">
-                  <img
-                    src="../assets/images/projects/afdb-analytics-cloud-migration.svg"
-                    alt="AfDB analytics cloud migration monitoring dashboard"
-                    class="img-fluid w-100"
-                  />
-                  <div class="portfolio-overlay">
-                    <a
-                      href="projects-detail.html?project=afdb-analytics-cloud-migration"
-                      class="position-absolute top-50 start-50 translate-middle bg-primary round-64 rounded-circle hstack justify-content-center"
-                    >
-                      <iconify-icon
-                        icon="lucide:arrow-up-right"
-                        class="fs-8 text-dark"
-                      ></iconify-icon>
-                    </a>
-                  </div>
-                </div>
-                <div class="portfolio-details d-flex flex-column gap-3">
-                  <h3 class="mb-0">AfDB Analytics Cloud Migration</h3>
-                  <div class="hstack gap-2">
-                    <span class="badge text-dark border">Oracle Analytics Cloud</span>
-                    <span class="badge text-dark border">OCI Data Platform</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-6 mb-7">
-              <div
-                class="portfolio d-flex flex-column gap-6"
-                data-aos="fade-up"
-                data-aos-delay="300"
-                data-aos-duration="1000"
-              >
-                <div class="portfolio-img position-relative overflow-hidden">
-                  <img
-                    src="../assets/images/projects/ssnit-ebs-upgrade-db-migration.svg"
-                    alt="SSNIT EBS upgrade and database migration monitoring view"
-                    class="img-fluid w-100"
-                  />
-                  <div class="portfolio-overlay">
-                    <a
-                      href="projects-detail.html?project=ssnit-ebs-upgrade-db-migration"
-                      class="position-absolute top-50 start-50 translate-middle bg-primary round-64 rounded-circle hstack justify-content-center"
-                    >
-                      <iconify-icon
-                        icon="lucide:arrow-up-right"
-                        class="fs-8 text-dark"
-                      ></iconify-icon>
-                    </a>
-                  </div>
-                </div>
-                <div class="portfolio-details d-flex flex-column gap-3">
-                  <h3 class="mb-0">SSNIT EBS Upgrade & DB Migration</h3>
-                  <div class="hstack gap-2">
-                    <span class="badge text-dark border">Oracle DBA</span>
-                    <span class="badge text-dark border">Upgrade & Migration</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-6 mb-7">
-              <div
-                class="portfolio d-flex flex-column gap-6"
-                data-aos="fade-up"
-                data-aos-delay="400"
-                data-aos-duration="1000"
-              >
-                <div class="portfolio-img position-relative overflow-hidden">
-                  <img
-                    src="../assets/images/projects/state-ifmis-implementations.svg"
-                    alt="State IFMIS implementation payment and transaction workflow"
-                    class="img-fluid w-100"
-                  />
-                  <div class="portfolio-overlay">
-                    <a
-                      href="projects-detail.html?project=state-ifmis-implementations"
-                      class="position-absolute top-50 start-50 translate-middle bg-primary round-64 rounded-circle hstack justify-content-center"
-                    >
-                      <iconify-icon
-                        icon="lucide:arrow-up-right"
-                        class="fs-8 text-dark"
-                      ></iconify-icon>
-                    </a>
-                  </div>
-                </div>
-                <div class="portfolio-details d-flex flex-column gap-3">
-                  <h3 class="mb-0">State IFMIS Implementations</h3>
-                  <div class="hstack gap-2">
-                    <span class="badge text-dark border">Oracle ERP</span>
-                    <span class="badge text-dark border">IFMIS Programs</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-6 mb-7">
-              <div
-                class="portfolio d-flex flex-column gap-6"
-                data-aos="fade-up"
-                data-aos-delay="500"
-                data-aos-duration="1000"
-              >
-                <div class="portfolio-img position-relative overflow-hidden">
-                  <img
-                    src="../assets/images/projects/high-availability-database-platform.svg"
-                    alt="High availability database platform performance metrics"
-                    class="img-fluid w-100"
-                  />
-                  <div class="portfolio-overlay">
-                    <a
-                      href="projects-detail.html?project=high-availability-database-platform"
-                      class="position-absolute top-50 start-50 translate-middle bg-primary round-64 rounded-circle hstack justify-content-center"
-                    >
-                      <iconify-icon
-                        icon="lucide:arrow-up-right"
-                        class="fs-8 text-dark"
-                      ></iconify-icon>
-                    </a>
-                  </div>
-                </div>
-                <div class="portfolio-details d-flex flex-column gap-3">
-                  <h3 class="mb-0">High Availability Database Platform</h3>
-                  <div class="hstack gap-2">
-                    <span class="badge text-dark border">RAC & Data Guard</span>
-                    <span class="badge text-dark border">24/7 Operations</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-6 mb-7">
-              <div
-                class="portfolio d-flex flex-column gap-6"
-                data-aos="fade-up"
-                data-aos-delay="600"
-                data-aos-duration="1000"
-              >
-                <div class="portfolio-img position-relative overflow-hidden">
-                  <img
-                    src="../assets/images/projects/oracle-ebs-to-oci-migration-factory.svg"
-                    alt="Oracle EBS to OCI migration factory operations dashboard"
-                    class="img-fluid w-100"
-                  />
-                  <div class="portfolio-overlay">
-                    <a
-                      href="projects-detail.html?project=oracle-ebs-to-oci-migration-factory"
-                      class="position-absolute top-50 start-50 translate-middle bg-primary round-64 rounded-circle hstack justify-content-center"
-                    >
-                      <iconify-icon
-                        icon="lucide:arrow-up-right"
-                        class="fs-8 text-dark"
-                      ></iconify-icon>
-                    </a>
-                  </div>
-                </div>
-                <div class="portfolio-details d-flex flex-column gap-3">
-                  <h3 class="mb-0">Oracle EBS to OCI Migration Factory</h3>
-                  <div class="hstack gap-2">
-                    <span class="badge text-dark border">OCI Migration</span>
-                    <span class="badge text-dark border">Managed Support</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-    </div>
-
-    <footer class="footer bg-dark py-5 py-lg-11 py-xl-12">
-      <div class="container">
-        <div class="row">
-          <div class="col-xl-5 mb-8 mb-xl-0">
-            <div class="d-flex flex-column gap-8 pe-xl-5">
-              <h2 class="mb-0 text-white">Let's discuss your enterprise systems</h2>
-              <div class="d-flex flex-column gap-2">
-                <a
-                  href="mailto:info@pcetech.com"
-                  target="_blank"
-                  class="link-hover hstack gap-3 text-white fs-5"
-                >
-                  <iconify-icon
-                    icon="lucide:arrow-up-right"
-                    class="fs-7 text-primary"
-                  ></iconify-icon>
-                  info@pcetech.com
-                </a>
-                <a
-                  href="tel:+2348027611911"
-                  target="_blank"
-                  class="link-hover hstack gap-3 text-white fs-5"
-                >
-                  <iconify-icon
-                    icon="lucide:map-pin"
-                    class="fs-7 text-primary"
-                  ></iconify-icon>
-                  +234 802 761 1911
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 col-xl-2 mb-8 mb-xl-0">
-            <ul class="footer-menu list-unstyled mb-0 d-flex flex-column gap-2">
-              <li>
-                <a class="link-hover fs-5 text-white" href="index.html">Home</a>
-              </li>
-              <li>
-                <a class="link-hover fs-5 text-white" href="about-us.html"
-                  >About</a
-                >
-              </li>
-              <li>
-                <a
-                  class="link-hover fs-5 text-white"
-                  id="services"
-                  href="#services"
-                  >Services</a
-                >
-              </li>
-              <li>
-                <a class="link-hover fs-5 text-white" href="projects.html"
-                  >Work</a
-                >
-              </li>
-              <li>
-                <a
-                  class="link-hover fs-5 text-white"
-                  href="terms-and-conditions.html"
-                  >Terms</a
-                >
-              </li>
-              <li>
-                <a class="link-hover fs-5 text-white" href="privacy-policy.html"
-                  >Privacy Policy</a
-                >
-              </li>
-              <li>
-                <a class="link-hover fs-5 text-white" href="404.html"
-                  >Error 404</a
-                >
-              </li>
-            </ul>
-          </div>
-          <div class="col-md-4 col-xl-2 mb-8 mb-xl-0">
-            <ul class="footer-menu list-unstyled mb-0 d-flex flex-column gap-2">
-              <li>
-                <a class="link-hover fs-5 text-white" href="#!">Facebook</a>
-              </li>
-              <li>
-                <a class="link-hover fs-5 text-white" href="#!">Instagram</a>
-              </li>
-              <li>
-                <a class="link-hover fs-5 text-white" href="#!">Twitter</a>
-              </li>
-            </ul>
-          </div>
-          <div class="col-md-4 col-xl-3 mb-8 mb-xl-0">
-            <p class="mb-0 text-white text-opacity-70 text-md-end">
-              © PCE-TECH copyright 2025
-            </p>
-          </div>
-        </div>
+      <nav class="site-nav d-none d-lg-flex align-items-center gap-4" aria-label="Main navigation"><a class="site-nav-link" href="index.html">Home</a><a class="site-nav-link" href="about-us.html">About</a><a class="site-nav-link" href="index.html#services">Services</a><a class="site-nav-link active" href="projects.html" aria-current="page">Capabilities</a><a class="site-nav-link" href="contact.html">Contact</a></nav>
+      <div class="d-flex align-items-center gap-2">
+        <a class="btn site-header-cta d-none d-sm-inline-flex" href="contact.html"><span class="btn-text">Discuss a project</span><iconify-icon icon="lucide:arrow-up-right" class="btn-icon bg-white text-dark round-45 rounded-circle hstack justify-content-center fs-7"></iconify-icon></a>
+        <button class="site-menu-toggle btn bg-primary p-2 round-45 rounded-circle hstack justify-content-center d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#siteMobileNav" aria-controls="siteMobileNav" aria-expanded="false" aria-label="Toggle navigation"><iconify-icon icon="solar:hamburger-menu-line-duotone" class="fs-8 text-dark"></iconify-icon></button>
       </div>
-      
-    </footer>
-
-    <div class="get-template hstack gap-2">
-      <button
-        class="btn bg-primary p-2 round-52 rounded-circle hstack justify-content-center flex-shrink-0"
-        id="scrollToTopBtn"
-      >
-        <iconify-icon
-          icon="lucide:arrow-up"
-          class="fs-7 text-dark"
-        ></iconify-icon>
-      </button>
     </div>
-
-    <script src="../assets/libs/jquery/dist/jquery.min.js"></script>
-    <script src="../assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="../assets/libs/owl.carousel/dist/owl.carousel.min.js"></script>
-    <script src="../assets/libs/aos-master/dist/aos.js"></script>
-    <script src="../assets/js/custom.js"></script>
-    <!-- solar icons -->
-    <script src="https://cdn.jsdelivr.net/npm/iconify-icon@1.0.8/dist/iconify-icon.min.js"></script>
-  </body>
+    <nav class="collapse site-mobile-nav d-lg-none" id="siteMobileNav" aria-label="Mobile navigation"><a class="site-mobile-link" href="index.html">Home</a><a class="site-mobile-link" href="about-us.html">About</a><a class="site-mobile-link" href="index.html#services">Services</a><a class="site-mobile-link active" href="projects.html" aria-current="page">Capabilities</a><a class="site-mobile-link" href="contact.html">Contact</a><a class="site-mobile-link" href="mailto:info@pcetech.com">info@pcetech.com</a><a class="site-mobile-link" href="tel:+2348027611911">+234 802 761 1911</a></nav>
+  </div>
+</header>
+<main class="site-main">
+<section class="banner-section banner-inner-section position-relative d-flex align-items-end">
+  <div class="banner-motion-bg position-absolute top-0 start-0 w-100 h-100" aria-hidden="true"><div class="banner-motion-core"></div><div class="banner-motion-orbit banner-motion-orbit-one"></div><div class="banner-motion-orbit banner-motion-orbit-two"></div><div class="banner-motion-grid"></div></div>
+  <div class="container position-relative z-1"><div class="hero-copy py-8 py-xl-12"><p class="site-kicker text-primary mb-4">Capabilities</p><h1 class="display-2 text-white fw-bold mb-4">Enterprise technology capabilities, built around your environment.</h1><p class="hero-lead text-white text-opacity-75 fs-5 mb-0">Explore the types of Oracle ERP, cloud, database and analytics work PCE-TECH can scope and deliver.</p></div></div>
+</section><section class="py-5 py-lg-10"><div class="container">
+  <div class="row align-items-end gy-4 mb-5"><div class="col-lg-8"><p class="site-kicker mb-3">Representative solution patterns</p><h2 class="display-5 fw-bold text-dark mb-0">Practical expertise for complex systems</h2></div><div class="col-lg-4"><p class="mb-0">These illustrations describe capability areas, not named client case studies.</p></div></div>
+  <div class="row g-4"><div class="col-md-6 col-xl-4"><article class="capability-card h-100">
+  <a class="capability-visual d-block" href="projects-detail.html?project=government-financial-system"><img src="../assets/images/projects/government-financial-system.svg" alt="Illustration of public-sector finance workflows" loading="lazy" /></a>
+  <div class="p-4 p-lg-5"><p class="site-kicker mb-2">ERP & Finance</p><h3 class="h4 mb-3"><a class="text-dark" href="projects-detail.html?project=government-financial-system">Public-Sector Financial Systems</a></h3><p class="mb-4">Oracle ERP workflows for budgeting, procurement, treasury and reporting, shaped around governance and audit needs.</p><a class="site-text-link" href="projects-detail.html?project=government-financial-system">Explore this capability <span aria-hidden="true">↗</span></a></div>
+</article></div><div class="col-md-6 col-xl-4"><article class="capability-card h-100">
+  <a class="capability-visual d-block" href="projects-detail.html?project=analytics-modernization"><img src="../assets/images/projects/analytics-modernization.svg" alt="Illustration of analytics workloads moving to cloud data services" loading="lazy" /></a>
+  <div class="p-4 p-lg-5"><p class="site-kicker mb-2">Analytics & Cloud</p><h3 class="h4 mb-3"><a class="text-dark" href="projects-detail.html?project=analytics-modernization">Analytics Modernization to Cloud</a></h3><p class="mb-4">Modernize data, reporting and analytics workloads through a controlled move from on-premises platforms to cloud services.</p><a class="site-text-link" href="projects-detail.html?project=analytics-modernization">Explore this capability <span aria-hidden="true">↗</span></a></div>
+</article></div><div class="col-md-6 col-xl-4"><article class="capability-card h-100">
+  <a class="capability-visual d-block" href="projects-detail.html?project=oracle-ebs-upgrade"><img src="../assets/images/projects/oracle-ebs-upgrade.svg" alt="Illustration of a controlled Oracle E-Business Suite and database upgrade" loading="lazy" /></a>
+  <div class="p-4 p-lg-5"><p class="site-kicker mb-2">Upgrade & Migration</p><h3 class="h4 mb-3"><a class="text-dark" href="projects-detail.html?project=oracle-ebs-upgrade">Oracle EBS Upgrade & Database Migration</a></h3><p class="mb-4">Plan and deliver Oracle E-Business Suite upgrades alongside database modernization and production cutover.</p><a class="site-text-link" href="projects-detail.html?project=oracle-ebs-upgrade">Explore this capability <span aria-hidden="true">↗</span></a></div>
+</article></div><div class="col-md-6 col-xl-4"><article class="capability-card h-100">
+  <a class="capability-visual d-block" href="projects-detail.html?project=state-ifmis-implementations"><img src="../assets/images/projects/state-ifmis-implementations.svg" alt="Illustration of departments connected to a shared public-finance platform" loading="lazy" /></a>
+  <div class="p-4 p-lg-5"><p class="site-kicker mb-2">ERP Implementation</p><h3 class="h4 mb-3"><a class="text-dark" href="projects-detail.html?project=state-ifmis-implementations">Integrated Public-Finance Platforms</a></h3><p class="mb-4">Connect finance, procurement, payroll and treasury processes through a governed enterprise platform.</p><a class="site-text-link" href="projects-detail.html?project=state-ifmis-implementations">Explore this capability <span aria-hidden="true">↗</span></a></div>
+</article></div><div class="col-md-6 col-xl-4"><article class="capability-card h-100">
+  <a class="capability-visual d-block" href="projects-detail.html?project=high-availability-database-platform"><img src="../assets/images/projects/high-availability-database-platform.svg" alt="Illustration of primary and standby database sites with replication" loading="lazy" /></a>
+  <div class="p-4 p-lg-5"><p class="site-kicker mb-2">Database Reliability</p><h3 class="h4 mb-3"><a class="text-dark" href="projects-detail.html?project=high-availability-database-platform">High-Availability Database & Disaster Recovery</a></h3><p class="mb-4">Design database environments for resilience, recoverability and dependable operation of critical workloads.</p><a class="site-text-link" href="projects-detail.html?project=high-availability-database-platform">Explore this capability <span aria-hidden="true">↗</span></a></div>
+</article></div><div class="col-md-6 col-xl-4"><article class="capability-card h-100">
+  <a class="capability-visual d-block" href="projects-detail.html?project=oracle-ebs-to-oci-migration-factory"><img src="../assets/images/projects/oracle-ebs-to-oci-migration-factory.svg" alt="Illustration of Oracle E-Business Suite moving through migration stages to OCI" loading="lazy" /></a>
+  <div class="p-4 p-lg-5"><p class="site-kicker mb-2">Cloud Migration</p><h3 class="h4 mb-3"><a class="text-dark" href="projects-detail.html?project=oracle-ebs-to-oci-migration-factory">Oracle EBS Migration to OCI</a></h3><p class="mb-4">Move Oracle E-Business Suite and supporting databases to Oracle Cloud Infrastructure with a managed migration plan.</p><a class="site-text-link" href="projects-detail.html?project=oracle-ebs-to-oci-migration-factory">Explore this capability <span aria-hidden="true">↗</span></a></div>
+</article></div></div>
+</div></section>
+<section class="py-5 py-lg-9 bg-primary"><div class="container"><div class="row align-items-center gy-4"><div class="col-lg-8"><h2 class="display-6 fw-bold text-dark mb-3">Need a partner for a specific Oracle or cloud challenge?</h2><p class="fs-5 text-dark mb-0">Tell us about your environment and priorities. We’ll discuss a sensible scope and delivery path.</p></div><div class="col-lg-4 text-lg-end"><a class="btn btn-dark" href="contact.html"><span class="btn-text">Discuss your requirements</span><iconify-icon icon="lucide:arrow-up-right" class="btn-icon bg-white text-dark round-52 rounded-circle hstack justify-content-center fs-7"></iconify-icon></a></div></div></div></section>
+</main>
+<footer class="footer site-footer bg-dark py-5 py-lg-9">
+  <div class="container">
+    <div class="row gy-5 align-items-start">
+      <div class="col-lg-5">
+        <a href="index.html" class="d-inline-block mb-4"><img src="../assets/images/logos/logo-white.svg" alt="PCE-TECH" width="170" class="img-fluid" /></a>
+        <p class="text-white text-opacity-70 mb-4">Oracle applications, cloud infrastructure and database engineering for organizations that depend on reliable enterprise systems.</p>
+        <a class="site-footer-link" href="mailto:info@pcetech.com">info@pcetech.com</a><br /><a class="site-footer-link" href="tel:+2348027611911">+234 802 761 1911</a>
+      </div>
+      <div class="col-6 col-lg-3"><h2 class="h6 text-white text-uppercase mb-3">Explore</h2><a class="site-footer-link d-block mb-2" href="about-us.html">About PCE-TECH</a><a class="site-footer-link d-block mb-2" href="index.html#services">Services</a><a class="site-footer-link d-block mb-2" href="projects.html">Capabilities</a><a class="site-footer-link d-block mb-2" href="contact.html">Contact</a></div>
+      <div class="col-6 col-lg-4"><h2 class="h6 text-white text-uppercase mb-3">Let’s talk</h2><p class="text-white text-opacity-70">Planning an Oracle, cloud or database initiative?</p><a class="site-footer-link d-block mb-2" href="contact.html">Discuss your requirements ↗</a></div>
+    </div>
+    <div class="border-top border-white border-opacity-10 mt-5 pt-4"><p class="small text-white text-opacity-50 mb-0">© 2026 PCE-TECH. All rights reserved.</p></div>
+  </div>
+</footer>
+<button class="site-scroll-top btn bg-primary p-2 round-52 rounded-circle hstack justify-content-center" id="scrollToTopBtn" type="button" aria-label="Back to top"><iconify-icon icon="lucide:arrow-up" class="fs-7 text-dark"></iconify-icon></button>
+<script src="../assets/libs/jquery/dist/jquery.min.js"></script>
+<script src="../assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="../assets/libs/owl.carousel/dist/owl.carousel.min.js"></script>
+<script src="../assets/libs/aos-master/dist/aos.js"></script>
+<script src="../assets/js/custom.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/iconify-icon@1.0.8/dist/iconify-icon.min.js"></script>
+</body>
 </html>

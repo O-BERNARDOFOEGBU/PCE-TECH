@@ -33,8 +33,8 @@
   <rect x="475" y="645" width="44" height="90" rx="8" fill="#2D4A59"/>
 
   <rect x="760" y="170" width="740" height="320" rx="24" fill="#111E27" stroke="#335163" stroke-width="2"/>
-  <text x="815" y="235" fill="#E4EFF5" font-family="Manrope, sans-serif" font-size="42" font-weight="700">Government Financial System</text>
-  <text x="815" y="282" fill="#8EA5B3" font-family="Manrope, sans-serif" font-size="24">Public-sector Oracle EBS budget and treasury visibility</text>
+  <text x="815" y="235" fill="#E4EFF5" font-family="Manrope, sans-serif" font-size="42" font-weight="700">Public Finance Platform</text>
+  <text x="815" y="282" fill="#8EA5B3" font-family="Manrope, sans-serif" font-size="24">Integrated workflows for budget, procurement and treasury</text>
 
   <rect x="815" y="320" width="180" height="120" rx="14" fill="#1F323E"/>
   <rect x="1015" y="320" width="180" height="120" rx="14" fill="#1F323E"/>
@@ -55,17 +55,17 @@
   <rect x="1244" y="418" width="110" height="22" rx="11" fill="#334C59"/>
 
   <rect x="760" y="530" width="740" height="300" rx="24" fill="#111E27" stroke="#335163" stroke-width="2"/>
-  <text x="815" y="596" fill="#E4EFF5" font-family="Manrope, sans-serif" font-size="34" font-weight="700">Budget Control and Disbursement</text>
+  <text x="815" y="596" fill="#E4EFF5" font-family="Manrope, sans-serif" font-size="34" font-weight="700">Budget Planning and Control</text>
 
   <rect x="815" y="634" width="300" height="66" rx="12" fill="#1B2D38"/>
-  <text x="840" y="676" fill="#C1FF72" font-family="Manrope, sans-serif" font-size="28" font-weight="700">NGN 4.8B Approved</text>
+  <text x="840" y="676" fill="#C1FF72" font-family="Manrope, sans-serif" font-size="28" font-weight="700">Budget Approved</text>
 
   <rect x="815" y="716" width="300" height="66" rx="12" fill="#1B2D38"/>
-  <text x="840" y="758" fill="#9FC5D8" font-family="Manrope, sans-serif" font-size="28" font-weight="700">NGN 4.2B Released</text>
+  <text x="840" y="758" fill="#9FC5D8" font-family="Manrope, sans-serif" font-size="28" font-weight="700">Treasury Execution</text>
 
   <rect x="1145" y="634" width="325" height="148" rx="16" fill="#1B2D38"/>
   <path d="M1174 750L1220 706L1262 724L1320 666L1370 694L1438 642" stroke="#C1FF72" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
 
   <circle cx="128" cy="128" r="20" fill="url(#gfs-accent)"/>
-  <text x="164" y="137" fill="#DDEAF1" font-family="Manrope, sans-serif" font-size="30" font-weight="700">PCE-TECH PROJECT VISUAL</text>
+  <text x="164" y="137" fill="#DDEAF1" font-family="Manrope, sans-serif" font-size="30" font-weight="700">CAPABILITY ILLUSTRATION</text>
 </svg>

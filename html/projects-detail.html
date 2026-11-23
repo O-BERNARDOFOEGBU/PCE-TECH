@@ -1,598 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>PCE-TECH</title>
-    <link
-      rel="shortcut icon"
-      type="image/png"
-      href="../assets/images/logos/favicon.svg"
-    />
-    <link
-      rel="stylesheet"
-      href="../assets/libs/owl.carousel/dist/assets/owl.carousel.min.css"
-    />
-    <link rel="stylesheet" href="../assets/libs/aos-master/dist/aos.css" />
-    <link rel="stylesheet" href="../assets/css/styles.css" />
-  </head>
-
-  <body>
-    <!-- Header -->
-    <header
-      class="header border-4 border-primary border-top position-fixed start-0 top-0 w-100"
-    >
-      <div class="container">
-        <div
-          class="header-wrapper d-flex align-items-center justify-content-between"
-        >
-          <div class="logo">
-            <a href="index.html" class="logo-white">
-              <img
-                src="../assets/images/logos/logo-white.svg"
-                alt="logo"
-                class="img-fluid"
-              />
-            </a>
-            <a href="index.html" class="logo-dark">
-              <img
-                src="../assets/images/logos/logo-dark.svg"
-                alt="logo"
-                class="img-fluid"
-              />
-            </a>
-          </div>
-          <div class="d-flex align-items-center gap-4">
-            <div class="btn-group">
-              <button
-                class="btn btn-secondary toggle-menu round-45 p-2 d-flex align-items-center justify-content-center bg-white rounded-circle"
-                type="button"
-                data-bs-toggle="dropdown"
-                data-bs-auto-close="true"
-                aria-expanded="false"
-              >
-                <iconify-icon
-                  icon="solar:hamburger-menu-line-duotone"
-                  class="menu-icon fs-8 text-dark"
-                ></iconify-icon>
-              </button>
-              <ul class="dropdown-menu dropdown-menu-end p-4">
-                <div class="d-flex flex-column gap-6">
-                  <div
-                    class="hstack justify-content-between border-bottom pb-6"
-                  >
-                    <p class="mb-0 fs-5 text-dark">Menu</p>
-                    <button
-                      type="button"
-                      class="btn-close opacity-75"
-                      aria-label="Close"
-                    ></button>
-                  </div>
-                  <div class="d-flex flex-column gap-3">
-                    <ul
-                      class="header-menu list-unstyled mb-0 d-flex flex-column gap-2"
-                    >
-                      <li class="header-item">
-                        <a
-                          href="index.html"
-                          class="header-link hstack gap-2 fs-7 fw-bold text-dark"
-                          ><img
-                            src="../assets/images/svgs/secondary-leaf.svg"
-                            alt=""
-                            width="20"
-                            height="20"
-                            class="img-fluid animate-spin"
-                          />Home</a
-                        >
-                      </li>
-                      <li class="header-item">
-                        <a
-                          href="about-us.html"
-                          class="header-link hstack gap-2 fs-7 fw-bold text-dark"
-                          ><img
-                            src="../assets/images/svgs/secondary-leaf.svg"
-                            alt=""
-                            width="20"
-                            height="20"
-                            class="img-fluid animate-spin"
-                          />About</a
-                        >
-                      </li>
-                      <li class="header-item">
-                        <a
-                          href="projects.html"
-                          class="header-link hstack gap-2 fs-7 fw-bold text-dark"
-                          ><img
-                            src="../assets/images/svgs/secondary-leaf.svg"
-                            alt=""
-                            width="20"
-                            height="20"
-                            class="img-fluid animate-spin"
-                          />Projects</a
-                        >
-                      </li>
-                      <li class="header-item">
-                        <a
-                          href="blog.html"
-                          class="header-link hstack gap-2 fs-7 fw-bold text-dark"
-                          ><img
-                            src="../assets/images/svgs/secondary-leaf.svg"
-                            alt=""
-                            width="20"
-                            height="20"
-                            class="img-fluid animate-spin"
-                          />Blog</a
-                        >
-                      </li>
-                      <li class="header-item">
-                        <a
-                          href="index.html"
-                          class="header-link hstack gap-2 fs-7 fw-bold text-dark"
-                          ><img
-                            src="../assets/images/svgs/secondary-leaf.svg"
-                            alt=""
-                            width="20"
-                            height="20"
-                            class="img-fluid animate-spin"
-                          />Services</a
-                        >
-                      </li>
-                      <li class="header-item">
-                        <a
-                          href="contact.html"
-                          class="header-link hstack gap-2 fs-7 fw-bold text-dark"
-                          ><img
-                            src="../assets/images/svgs/secondary-leaf.svg"
-                            alt=""
-                            width="20"
-                            height="20"
-                            class="img-fluid animate-spin"
-                          />Contact</a
-                        >
-                      </li>
-                      <li class="header-item">
-                        <a
-                          href="index.html"
-                          class="header-link hstack gap-2 fs-7 fw-bold text-dark"
-                          ><img
-                            src="../assets/images/svgs/secondary-leaf.svg"
-                            alt=""
-                            width="20"
-                            height="20"
-                            class="img-fluid animate-spin"
-                          />Docs</a
-                        >
-                      </li>
-                    </ul>
-                  </div>
-                  <div>
-                    <a class="text-dark" href="tel:+2348027611911"
-                      >+234 802 761 1911</a
-                    >
-                    <a
-                      class="fs-8 text-dark fw-bold"
-                      href="mailto:info@pcetech.com"
-                      >info@pcetech.com</a
-                    >
-                  </div>
-                </div>
-              </ul>
-            </div>
-          </div>
-        </div>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="A closer look at PCE-TECH capability areas across Oracle ERP, cloud migration, database administration and analytics." />
+  <title>PCE-TECH Capability Overview | Enterprise Systems</title>
+  <link rel="shortcut icon" type="image/svg+xml" href="../assets/images/logos/favicon.svg" />
+  <link rel="stylesheet" href="../assets/libs/owl.carousel/dist/assets/owl.carousel.min.css" />
+  <link rel="stylesheet" href="../assets/libs/aos-master/dist/aos.css" />
+  <link rel="stylesheet" href="../assets/css/styles.css" />
+  <link rel="stylesheet" href="../assets/css/pce-refresh.css" />
+</head>
+<body>
+<header class="header site-header border-4 border-primary border-top position-fixed start-0 top-0 w-100">
+  <div class="container">
+    <div class="site-header-row d-flex align-items-center justify-content-between">
+      <div class="logo">
+        <a href="index.html" class="logo-white" aria-label="PCE-TECH home"><img src="../assets/images/logos/logo-white.svg" alt="PCE-TECH" class="img-fluid" /></a>
+        <a href="index.html" class="logo-dark" aria-label="PCE-TECH home"><img src="../assets/images/logos/logo-dark.svg" alt="PCE-TECH" class="img-fluid" /></a>
       </div>
-    </header>
-
-    <!--  Page Wrapper -->
-    <div class="page-wrapper overflow-hidden">
-      <!--  Banner Section -->
-      <section
-        class="banner-section banner-inner-section position-relative overflow-hidden d-flex align-items-end"
-        style="
-          background-image: url(../assets/images/backgrounds/projects-detail-banner.jpg);
-        "
-      >
-        <div class="container">
-          <div
-            class="d-flex flex-column gap-4 pb-5 pb-xl-10 position-relative z-1"
-          >
-            <div class="row align-items-center">
-              <div class="col-xl-4">
-                <div
-                  class="d-flex align-items-center gap-4"
-                  data-aos="fade-up"
-                  data-aos-delay="100"
-                  data-aos-duration="1000"
-                >
-                  <img
-                    src="../assets/images/svgs/primary-leaf.svg"
-                    alt=""
-                    class="img-fluid animate-spin"
-                  />
-                  <p class="mb-0 text-white fs-5 text-opacity-70">
-                    A detailed look at one of our
-                    <span class="text-primary">mission-critical Oracle</span>
-                    transformation engagements.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div
-              class="d-flex align-items-end gap-3"
-              data-aos="fade-up"
-              data-aos-delay="200"
-              data-aos-duration="1000"
-            >
-              <h1 class="mb-0 fs-16 text-white lh-1" id="projectDetailTitle">
-                Government Financial System (Maliyah)
-              </h1>
-              <a
-                href="javascript:void(0)"
-                class="p-1 ps-7 bg-primary rounded-pill"
-              >
-                <span
-                  class="bg-white round-52 rounded-circle d-flex align-items-center justify-content-center"
-                >
-                  <iconify-icon
-                    icon="lucide:arrow-up-right"
-                    class="fs-8 text-dark"
-                  ></iconify-icon>
-                </span>
-              </a>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!--  Project Detail Section -->
-      <section class="project-detail py-5 py-lg-11 py-xl-12">
-        <div class="container">
-          <div class="d-flex flex-column gap-5 gap-xl-11">
-            <div class="d-flex flex-column gap-8">
-              <a
-                href="projects.html"
-                class="btn py-2 ps-3 pe-5"
-                data-aos="fade-up"
-                data-aos-delay="100"
-                data-aos-duration="1000"
-              >
-                <span class="btn-text pe-1">Back</span>
-                <iconify-icon
-                  icon="lucide:arrow-up-right"
-                  class="btn-icon bg-white text-dark round-36 rounded-circle hstack justify-content-center fs-5 shadow-sm"
-                ></iconify-icon>
-              </a>
-              <div
-                class="d-md-flex align-items-center gap-4 gap-lg-8"
-                data-aos="fade-up"
-                data-aos-delay="200"
-                data-aos-duration="1000"
-              >
-                <div
-                  class="d-flex flex-column gap-2 py-2 pe-4 pe-lg-8 border-end"
-                >
-                  <p class="mb-0">Scope of work</p>
-                  <p class="mb-0 text-dark fs-5 fw-medium">
-                    Oracle EBS Implementation, OCI Architecture, HA/DR Architecture
-                  </p>
-                </div>
-                <div
-                  class="d-flex flex-column gap-2 py-2 pe-4 pe-lg-8 border-end"
-                >
-                  <p class="mb-0">Industry</p>
-                  <p class="mb-0 text-dark fs-5 fw-medium">Public Sector Finance</p>
-                </div>
-                <div
-                  class="d-flex flex-column gap-2 py-2 pe-4 pe-lg-8 border-end"
-                >
-                  <p class="mb-0">Delivery model</p>
-                  <p class="mb-0 text-dark fs-5 fw-medium">4-Week Implementation + 8-Week Stabilization</p>
-                </div>
-                <div class="d-flex flex-column gap-2 py-2">
-                  <p class="mb-0">Website</p>
-                  <p class="mb-0 text-dark fs-5 fw-medium">www.pcetech.com</p>
-                </div>
-              </div>
-            </div>
-            <div class="row gap-4 gap-lg-0">
-              <div class="col-lg-4">
-                <h2
-                  class="fs-13 mb-0"
-                  data-aos="fade-right"
-                  data-aos-delay="200"
-                  data-aos-duration="1000"
-                >
-                  Description
-                </h2>
-              </div>
-              <div class="col-lg-8">
-                <div
-                  data-aos="fade-up"
-                  data-aos-delay="200"
-                  data-aos-duration="1000"
-                >
-                  <p class="fs-5 mb-6">
-                    This engagement supported a government-grade financial
-                    platform requiring strong governance, high availability,
-                    and reliable operational continuity.
-                  </p>
-                  <h4>1. Discovery & Architecture</h4>
-                  <p class="fs-5 mb-6">
-                    We completed business, application, and infrastructure
-                    assessments, followed by target architecture for Oracle EBS,
-                    OCI readiness, backup/recovery, and security controls.
-                  </p>
-                  <h4>2. Migration & Optimization</h4>
-                  <p class="fs-5 mb-0">
-                    We executed controlled migration, functional validation,
-                    and production stabilization, including performance tuning,
-                    risk-managed cutover, and post-go-live support.
-                  </p>
-                  <h4 class="mt-6">Measured Outcomes</h4>
-                  <p class="fs-5 mb-0">
-                    Delivered high-availability architecture with RAC/ASM/Data
-                    Guard, supported large concurrent user loads, and enabled
-                    data migration at national scale, including over 190,000
-                    employee and pensioner records in comparable public-sector
-                    programs.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="row">
-              <div
-                class="col-12 mb-7"
-                data-aos="fade-up"
-                data-aos-delay="100"
-                data-aos-duration="1000"
-              >
-                <img
-                  src="../assets/images/projects/government-financial-system.svg"
-                  alt="Government Financial System project visual"
-                  data-project-image="primary"
-                  class="w-100 object-fit-cover"
-                />
-              </div>
-              <div
-                class="col-lg-6 mb-7"
-                data-aos="fade-up"
-                data-aos-delay="200"
-                data-aos-duration="1000"
-              >
-                <img
-                  src="../assets/images/projects/afdb-analytics-cloud-migration.svg"
-                  alt="AfDB analytics cloud migration project visual"
-                  data-project-image="secondary-one"
-                  class="w-100 object-fit-cover"
-                />
-              </div>
-              <div
-                class="col-lg-6 mb-7"
-                data-aos="fade-up"
-                data-aos-delay="300"
-                data-aos-duration="1000"
-              >
-                <img
-                  src="../assets/images/projects/ssnit-ebs-upgrade-db-migration.svg"
-                  alt="SSNIT EBS upgrade and database migration project visual"
-                  data-project-image="secondary-two"
-                  class="w-100 object-fit-cover"
-                />
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-    </div>
-
-    <footer class="footer bg-dark py-5 py-lg-11 py-xl-12">
-      <div class="container">
-        <div class="row">
-          <div class="col-xl-5 mb-8 mb-xl-0">
-            <div class="d-flex flex-column gap-8 pe-xl-5">
-              <h2 class="mb-0 text-white">Let's discuss your enterprise systems</h2>
-              <div class="d-flex flex-column gap-2">
-                <a
-                  href="mailto:info@pcetech.com"
-                  target="_blank"
-                  class="link-hover hstack gap-3 text-white fs-5"
-                >
-                  <iconify-icon
-                    icon="lucide:arrow-up-right"
-                    class="fs-7 text-primary"
-                  ></iconify-icon>
-                  info@pcetech.com
-                </a>
-                <a
-                  href="tel:+2348027611911"
-                  target="_blank"
-                  class="link-hover hstack gap-3 text-white fs-5"
-                >
-                  <iconify-icon
-                    icon="lucide:map-pin"
-                    class="fs-7 text-primary"
-                  ></iconify-icon>
-                  +234 802 761 1911
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 col-xl-2 mb-8 mb-xl-0">
-            <ul class="footer-menu list-unstyled mb-0 d-flex flex-column gap-2">
-              <li>
-                <a class="link-hover fs-5 text-white" href="index.html">Home</a>
-              </li>
-              <li>
-                <a class="link-hover fs-5 text-white" href="about-us.html"
-                  >About</a
-                >
-              </li>
-              <li>
-                <a
-                  class="link-hover fs-5 text-white"
-                  id="services"
-                  href="#services"
-                  >Services</a
-                >
-              </li>
-              <li>
-                <a class="link-hover fs-5 text-white" href="projects.html"
-                  >Work</a
-                >
-              </li>
-              <li>
-                <a
-                  class="link-hover fs-5 text-white"
-                  href="terms-and-conditions.html"
-                  >Terms</a
-                >
-              </li>
-              <li>
-                <a class="link-hover fs-5 text-white" href="privacy-policy.html"
-                  >Privacy Policy</a
-                >
-              </li>
-              <li>
-                <a class="link-hover fs-5 text-white" href="404.html"
-                  >Error 404</a
-                >
-              </li>
-            </ul>
-          </div>
-          <div class="col-md-4 col-xl-2 mb-8 mb-xl-0">
-            <ul class="footer-menu list-unstyled mb-0 d-flex flex-column gap-2">
-              <li>
-                <a class="link-hover fs-5 text-white" href="#!">Facebook</a>
-              </li>
-              <li>
-                <a class="link-hover fs-5 text-white" href="#!">Instagram</a>
-              </li>
-              <li>
-                <a class="link-hover fs-5 text-white" href="#!">Twitter</a>
-              </li>
-            </ul>
-          </div>
-          <div class="col-md-4 col-xl-3 mb-8 mb-xl-0">
-            <p class="mb-0 text-white text-opacity-70 text-md-end">
-              © PCE-TECH copyright 2025
-            </p>
-          </div>
-        </div>
+      <nav class="site-nav d-none d-lg-flex align-items-center gap-4" aria-label="Main navigation"><a class="site-nav-link" href="index.html">Home</a><a class="site-nav-link" href="about-us.html">About</a><a class="site-nav-link" href="index.html#services">Services</a><a class="site-nav-link active" href="projects.html" aria-current="page">Capabilities</a><a class="site-nav-link" href="contact.html">Contact</a></nav>
+      <div class="d-flex align-items-center gap-2">
+        <a class="btn site-header-cta d-none d-sm-inline-flex" href="contact.html"><span class="btn-text">Discuss a project</span><iconify-icon icon="lucide:arrow-up-right" class="btn-icon bg-white text-dark round-45 rounded-circle hstack justify-content-center fs-7"></iconify-icon></a>
+        <button class="site-menu-toggle btn bg-primary p-2 round-45 rounded-circle hstack justify-content-center d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#siteMobileNav" aria-controls="siteMobileNav" aria-expanded="false" aria-label="Toggle navigation"><iconify-icon icon="solar:hamburger-menu-line-duotone" class="fs-8 text-dark"></iconify-icon></button>
       </div>
-      
-    </footer>
-
-    <div class="get-template hstack gap-2">
-      <button
-        class="btn bg-primary p-2 round-52 rounded-circle hstack justify-content-center flex-shrink-0"
-        id="scrollToTopBtn"
-      >
-        <iconify-icon
-          icon="lucide:arrow-up"
-          class="fs-7 text-dark"
-        ></iconify-icon>
-      </button>
     </div>
-
-    <script src="../assets/libs/jquery/dist/jquery.min.js"></script>
-    <script src="../assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="../assets/libs/owl.carousel/dist/owl.carousel.min.js"></script>
-    <script src="../assets/libs/aos-master/dist/aos.js"></script>
-    <script src="../assets/js/custom.js"></script>
-    <script>
-      (() => {
-        const projectCatalog = [
-          {
-            slug: "government-financial-system",
-            title: "Government Financial System (Maliyah)",
-            image:
-              "../assets/images/projects/government-financial-system.svg",
-            alt: "Government Financial System project visual",
-          },
-          {
-            slug: "afdb-analytics-cloud-migration",
-            title: "AfDB Analytics Cloud Migration",
-            image:
-              "../assets/images/projects/afdb-analytics-cloud-migration.svg",
-            alt: "AfDB analytics cloud migration project visual",
-          },
-          {
-            slug: "ssnit-ebs-upgrade-db-migration",
-            title: "SSNIT EBS Upgrade & DB Migration",
-            image:
-              "../assets/images/projects/ssnit-ebs-upgrade-db-migration.svg",
-            alt: "SSNIT EBS upgrade and database migration project visual",
-          },
-          {
-            slug: "state-ifmis-implementations",
-            title: "State IFMIS Implementations",
-            image:
-              "../assets/images/projects/state-ifmis-implementations.svg",
-            alt: "State IFMIS implementation project visual",
-          },
-          {
-            slug: "high-availability-database-platform",
-            title: "High Availability Database Platform",
-            image:
-              "../assets/images/projects/high-availability-database-platform.svg",
-            alt: "High availability database platform project visual",
-          },
-          {
-            slug: "oracle-ebs-to-oci-migration-factory",
-            title: "Oracle EBS to OCI Migration Factory",
-            image:
-              "../assets/images/projects/oracle-ebs-to-oci-migration-factory.svg",
-            alt: "Oracle EBS to OCI migration factory project visual",
-          },
-        ];
-
-        const params = new URLSearchParams(window.location.search);
-        const selectedSlug = params.get("project");
-        const selectedProject =
-          projectCatalog.find((item) => item.slug === selectedSlug) ||
-          projectCatalog[0];
-
-        const titleElement = document.getElementById("projectDetailTitle");
-        if (titleElement) {
-          titleElement.textContent = selectedProject.title;
-        }
-
-        document.title = `${selectedProject.title} | PCE-TECH`;
-
-        const primaryImage = document.querySelector(
-          '[data-project-image="primary"]'
-        );
-        if (primaryImage) {
-          primaryImage.src = selectedProject.image;
-          primaryImage.alt = selectedProject.alt;
-        }
-
-        const selectedIndex = projectCatalog.findIndex(
-          (item) => item.slug === selectedProject.slug
-        );
-        const secondaryOne =
-          projectCatalog[(selectedIndex + 1) % projectCatalog.length];
-        const secondaryTwo =
-          projectCatalog[(selectedIndex + 2) % projectCatalog.length];
-
-        const secondaryOneImage = document.querySelector(
-          '[data-project-image="secondary-one"]'
-        );
-        if (secondaryOneImage) {
-          secondaryOneImage.src = secondaryOne.image;
-          secondaryOneImage.alt = secondaryOne.alt;
-        }
-
-        const secondaryTwoImage = document.querySelector(
-          '[data-project-image="secondary-two"]'
-        );
-        if (secondaryTwoImage) {
-          secondaryTwoImage.src = secondaryTwo.image;
-          secondaryTwoImage.alt = secondaryTwo.alt;
-        }
-      })();
-    </script>
-    <!-- solar icons -->
-    <script src="https://cdn.jsdelivr.net/npm/iconify-icon@1.0.8/dist/iconify-icon.min.js"></script>
-  </body>
+    <nav class="collapse site-mobile-nav d-lg-none" id="siteMobileNav" aria-label="Mobile navigation"><a class="site-mobile-link" href="index.html">Home</a><a class="site-mobile-link" href="about-us.html">About</a><a class="site-mobile-link" href="index.html#services">Services</a><a class="site-mobile-link active" href="projects.html" aria-current="page">Capabilities</a><a class="site-mobile-link" href="contact.html">Contact</a><a class="site-mobile-link" href="mailto:info@pcetech.com">info@pcetech.com</a><a class="site-mobile-link" href="tel:+2348027611911">+234 802 761 1911</a></nav>
+  </div>
+</header>
+<main class="site-main">
+<section class="banner-section banner-inner-section position-relative d-flex align-items-end">
+  <div class="banner-motion-bg position-absolute top-0 start-0 w-100 h-100" aria-hidden="true"><div class="banner-motion-core"></div><div class="banner-motion-orbit banner-motion-orbit-one"></div><div class="banner-motion-orbit banner-motion-orbit-two"></div><div class="banner-motion-grid"></div></div>
+  <div class="container position-relative z-1"><div class="hero-copy py-8 py-xl-12"><p class="site-kicker text-primary mb-4">PCE-TECH capabilities</p><h1 class="display-2 text-white fw-bold mb-4">Capability overview</h1><p class="hero-lead text-white text-opacity-75 fs-5 mb-0">Explore a representative delivery pattern and the work it can involve.</p></div></div>
+</section><section class="py-5 py-lg-10"><div class="container">
+  <a href="projects.html" class="site-text-link d-inline-block mb-5">← All capabilities</a>
+  <div class="row g-5 align-items-start">
+    <div class="col-lg-5"><p class="site-kicker mb-3" data-project="category"></p><h2 class="display-5 fw-bold text-dark mb-4" data-project="title"></h2><p class="fs-5" data-project="summary"></p><p class="small text-muted mb-0">This is a capability illustration, not a named client case study.</p></div>
+    <div class="col-lg-7"><div class="capability-detail-visual"><img data-project="image" src="../assets/images/projects/government-financial-system.svg" alt="Capability illustration" /></div></div>
+  </div>
+  <div class="row g-5 mt-4"><div class="col-lg-4"><h3 class="h4">Typical focus</h3><p data-project="focus"></p></div><div class="col-lg-4"><h3 class="h4">How we approach it</h3><p data-project="approach"></p></div><div class="col-lg-4"><h3 class="h4">What it supports</h3><p data-project="benefit"></p></div></div>
+</div></section>
+<section class="py-5 py-lg-9 bg-dark"><div class="container text-center"><p class="site-kicker text-primary mb-3">Discuss your environment</p><h2 class="display-5 fw-bold text-white mb-4">Let’s plan the right next step for your systems.</h2><a class="btn" href="contact.html"><span class="btn-text">Contact PCE-TECH</span><iconify-icon icon="lucide:arrow-up-right" class="btn-icon bg-white text-dark round-52 rounded-circle hstack justify-content-center fs-7"></iconify-icon></a></div></section>
+<script>
+(() => {
+  const catalog = [{"slug": "government-financial-system", "title": "Public-Sector Financial Systems", "category": "ERP & Finance", "image": "../assets/images/projects/government-financial-system.svg", "alt": "Illustration of public-sector finance workflows", "summary": "Oracle ERP workflows for budgeting, procurement, treasury and reporting, shaped around governance and audit needs.", "focus": "Oracle E-Business Suite · Financials · Procurement · Treasury", "approach": "Map finance controls, chart of accounts, approvals, integrations and reporting needs before configuring and validating the solution.", "benefit": "A joined-up finance environment with clearer controls and better visibility across core processes."}, {"slug": "analytics-modernization", "title": "Analytics Modernization to Cloud", "category": "Analytics & Cloud", "image": "../assets/images/projects/analytics-modernization.svg", "alt": "Illustration of analytics workloads moving to cloud data services", "summary": "Modernize data, reporting and analytics workloads through a controlled move from on-premises platforms to cloud services.", "focus": "Data warehouse · OBIEE · Oracle Analytics Cloud · OCI", "approach": "Assess source workloads and dependencies, plan the target architecture, migrate data and reports, then validate access and outputs with users.", "benefit": "A maintainable analytics platform designed to support trusted reporting and informed decisions."}, {"slug": "oracle-ebs-upgrade", "title": "Oracle EBS Upgrade & Database Migration", "category": "Upgrade & Migration", "image": "../assets/images/projects/oracle-ebs-upgrade.svg", "alt": "Illustration of a controlled Oracle E-Business Suite and database upgrade", "summary": "Plan and deliver Oracle E-Business Suite upgrades alongside database modernization and production cutover.", "focus": "Oracle EBS · Database upgrade · Patch planning · Cutover", "approach": "Review customizations and integrations, rehearse upgrade and migration steps, validate data and business processes, then stabilize production.", "benefit": "A carefully managed transition that keeps business validation, recoverability and service continuity in view."}, {"slug": "state-ifmis-implementations", "title": "Integrated Public-Finance Platforms", "category": "ERP Implementation", "image": "../assets/images/projects/state-ifmis-implementations.svg", "alt": "Illustration of departments connected to a shared public-finance platform", "summary": "Connect finance, procurement, payroll and treasury processes through a governed enterprise platform.", "focus": "IFMIS · Financial controls · Payroll · Procurement", "approach": "Align business processes and data standards, configure modules and roles, test integrations, and prepare teams for adoption.", "benefit": "Consistent processes and information flows across departments and operating units."}, {"slug": "high-availability-database-platform", "title": "High-Availability Database & Disaster Recovery", "category": "Database Reliability", "image": "../assets/images/projects/high-availability-database-platform.svg", "alt": "Illustration of primary and standby database sites with replication", "summary": "Design database environments for resilience, recoverability and dependable operation of critical workloads.", "focus": "Oracle RAC · ASM · Data Guard · Backup and recovery", "approach": "Assess workload and recovery needs, design the topology, configure replication and backup controls, and rehearse recovery procedures.", "benefit": "A recovery plan built around tested procedures, clear responsibilities and the organization’s service needs."}, {"slug": "oracle-ebs-to-oci-migration-factory", "title": "Oracle EBS Migration to OCI", "category": "Cloud Migration", "image": "../assets/images/projects/oracle-ebs-to-oci-migration-factory.svg", "alt": "Illustration of Oracle E-Business Suite moving through migration stages to OCI", "summary": "Move Oracle E-Business Suite and supporting databases to Oracle Cloud Infrastructure with a managed migration plan.", "focus": "OCI architecture · EBS · Database migration · Security · Disaster recovery", "approach": "Assess the current environment, design the target architecture, prepare and migrate workloads, validate integrations and rehearse cutover.", "benefit": "A cloud environment planned for the application’s operational, security and continuity requirements."}];
+  const params = new URLSearchParams(window.location.search);
+  const selected = catalog.find((item) => item.slug === params.get("project")) || catalog[0];
+  document.title = selected.title + " | PCE-TECH";
+  const h1 = document.querySelector(".hero-copy h1");
+  if (h1) h1.textContent = selected.title;
+  const lead = document.querySelector(".hero-copy .hero-lead");
+  if (lead) lead.textContent = selected.summary;
+  document.querySelectorAll("[data-project]").forEach((element) => {
+    const key = element.getAttribute("data-project");
+    if (key === "image") {
+      element.src = selected.image;
+      element.alt = selected.alt;
+    } else {
+      element.textContent = selected[key];
+    }
+  });
+})();
+</script>
+</main>
+<footer class="footer site-footer bg-dark py-5 py-lg-9">
+  <div class="container">
+    <div class="row gy-5 align-items-start">
+      <div class="col-lg-5">
+        <a href="index.html" class="d-inline-block mb-4"><img src="../assets/images/logos/logo-white.svg" alt="PCE-TECH" width="170" class="img-fluid" /></a>
+        <p class="text-white text-opacity-70 mb-4">Oracle applications, cloud infrastructure and database engineering for organizations that depend on reliable enterprise systems.</p>
+        <a class="site-footer-link" href="mailto:info@pcetech.com">info@pcetech.com</a><br /><a class="site-footer-link" href="tel:+2348027611911">+234 802 761 1911</a>
+      </div>
+      <div class="col-6 col-lg-3"><h2 class="h6 text-white text-uppercase mb-3">Explore</h2><a class="site-footer-link d-block mb-2" href="about-us.html">About PCE-TECH</a><a class="site-footer-link d-block mb-2" href="index.html#services">Services</a><a class="site-footer-link d-block mb-2" href="projects.html">Capabilities</a><a class="site-footer-link d-block mb-2" href="contact.html">Contact</a></div>
+      <div class="col-6 col-lg-4"><h2 class="h6 text-white text-uppercase mb-3">Let’s talk</h2><p class="text-white text-opacity-70">Planning an Oracle, cloud or database initiative?</p><a class="site-footer-link d-block mb-2" href="contact.html">Discuss your requirements ↗</a></div>
+    </div>
+    <div class="border-top border-white border-opacity-10 mt-5 pt-4"><p class="small text-white text-opacity-50 mb-0">© 2026 PCE-TECH. All rights reserved.</p></div>
+  </div>
+</footer>
+<button class="site-scroll-top btn bg-primary p-2 round-52 rounded-circle hstack justify-content-center" id="scrollToTopBtn" type="button" aria-label="Back to top"><iconify-icon icon="lucide:arrow-up" class="fs-7 text-dark"></iconify-icon></button>
+<script src="../assets/libs/jquery/dist/jquery.min.js"></script>
+<script src="../assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="../assets/libs/owl.carousel/dist/owl.carousel.min.js"></script>
+<script src="../assets/libs/aos-master/dist/aos.js"></script>
+<script src="../assets/js/custom.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/iconify-icon@1.0.8/dist/iconify-icon.min.js"></script>
+</body>
 </html>

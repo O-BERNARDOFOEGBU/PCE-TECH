@@ -24,13 +24,13 @@
     <path d="M1450 0V1040"/>
   </g>
 
-  <text x="130" y="170" fill="#E4EFF5" font-family="Manrope, sans-serif" font-size="54" font-weight="700">State IFMIS Implementations</text>
-  <text x="130" y="225" fill="#93AABB" font-family="Manrope, sans-serif" font-size="25">Connected financial operations across multiple state entities through Oracle ERP governance.</text>
+  <text x="130" y="170" fill="#E4EFF5" font-family="Manrope, sans-serif" font-size="54" font-weight="700">Integrated Public Finance Systems</text>
+  <text x="130" y="225" fill="#93AABB" font-family="Manrope, sans-serif" font-size="25">Connected workflows for budgeting, procurement, payroll and treasury.</text>
 
   <circle cx="800" cy="560" r="160" fill="url(#ifmis-core)" opacity="0.26"/>
   <rect x="665" y="430" width="270" height="260" rx="30" fill="#1E323F" stroke="#5D8A6B" stroke-width="3"/>
   <text x="735" y="550" fill="#E8F6EF" font-family="Manrope, sans-serif" font-size="52" font-weight="700">IFMIS</text>
-  <text x="703" y="602" fill="#B9D8C4" font-family="Manrope, sans-serif" font-size="24">Central ERP Hub</text>
+  <text x="703" y="602" fill="#B9D8C4" font-family="Manrope, sans-serif" font-size="24">Shared Finance Hub</text>
 
   <g fill="#182A35" stroke="#3B5C6E" stroke-width="2">
     <rect x="210" y="360" width="250" height="145" rx="18"/>
@@ -42,12 +42,12 @@
   </g>
 
   <g fill="#D5E7F2" font-family="Manrope, sans-serif" font-size="27" font-weight="700">
-    <text x="255" y="445">State A</text>
-    <text x="255" y="710">State B</text>
-    <text x="548" y="845">State C</text>
-    <text x="898" y="845">State D</text>
-    <text x="1185" y="710">State E</text>
-    <text x="1185" y="445">State F</text>
+    <text x="255" y="445">Entity A</text>
+    <text x="255" y="710">Entity B</text>
+    <text x="548" y="845">Entity C</text>
+    <text x="898" y="845">Entity D</text>
+    <text x="1185" y="710">Entity E</text>
+    <text x="1185" y="445">Entity F</text>
   </g>
 
   <g stroke="#C1FF72" stroke-width="6" stroke-linecap="round" stroke-dasharray="10 12">
@@ -69,8 +69,8 @@
   </g>
 
   <rect x="130" y="930" width="1340" height="64" rx="14" fill="#182A35" stroke="#355567" stroke-width="2"/>
-  <text x="170" y="972" fill="#D2E2EC" font-family="Manrope, sans-serif" font-size="28" font-weight="700">Standardized chart of accounts, procurement, payroll, and treasury controls across participating states.</text>
+  <text x="170" y="972" fill="#D2E2EC" font-family="Manrope, sans-serif" font-size="28" font-weight="700">Finance and control processes aligned across departments.</text>
 
   <circle cx="122" cy="92" r="18" fill="#C1FF72"/>
-  <text x="154" y="101" fill="#DDEAF2" font-family="Manrope, sans-serif" font-size="28" font-weight="700">PCE-TECH PROJECT VISUAL</text>
+  <text x="154" y="101" fill="#DDEAF2" font-family="Manrope, sans-serif" font-size="28" font-weight="700">CAPABILITY ILLUSTRATION</text>
 </svg>
