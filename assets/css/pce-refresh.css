@@ -43,3 +43,6 @@
 
 .site-secondary-cta { display: inline-flex; align-items: center; gap: 10px; padding: 13px 18px; border: 1px solid rgba(255,255,255,.45); border-radius: 999px; color: #fff; font-weight: 700; }
 .site-secondary-cta:hover { border-color: var(--bs-primary); color: var(--bs-primary); }
+
+.partner-card { padding: 30px; border: 1px solid rgba(31,42,46,.1); border-radius: 18px; background: #fff; }
+.partner-avatar { display: block; width: 64px; height: 64px; border: 2px solid var(--bs-primary); border-radius: 50%; object-fit: cover; }
